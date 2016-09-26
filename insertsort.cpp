@@ -54,7 +54,7 @@ int main(int argc, char** argv)
     cout << endl;
     long int startTime = time(0);//time logging
 
-	//Selection sort
+	//insertion sort
     for(int i = 1; i < numbers.size(); i++)
     {
         int j = i;
